@@ -36,6 +36,7 @@ def particion(arr, bajo, alto):
 
 def main():
     lista = [95, 36, 42, 0, 32, 58, 73, 28, 43, 12, 50]
+    print(f"Lista a ordenar: {lista}")
     bubble_sort(lista.copy())
     print("--------------------------------------------")
     print("Ordenando la lista con Quick Sort")
